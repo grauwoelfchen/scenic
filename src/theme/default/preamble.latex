@@ -1,0 +1,32 @@
+\documentclass{beamer}
+\usepackage{fontspec}
+\defaultfontfeatures{
+  Extension=.ttf, Ligatures=TeX, UprightFont=*, ItalicFont=*-Oblique,
+  BoldFont=*-Bold, BoldItalicFont=*-BoldOblique,
+}
+\setmainfont[
+  ItalicFont=*-Italic,
+  BoldItalicFont=*-BoldItalic
+]{DejaVuSerif}
+\setsansfont{DejaVuSans}
+\setmonofont[
+  Extension=.otf,
+  UprightFont=*-regular,
+  ItalicFont=*-italic,
+  BoldFont=*-bold,
+  BoldItalicFont=*-bolditalic,
+]{texgyrepagella}
+\definecolor{black}{RGB}{38, 38, 38}
+\definecolor{lavender}{RGB}{230, 230, 250}
+\definecolor{purple}{RGB}{147, 112, 219}
+\setbeamercolor*{background canvas}{bg=white}
+\setbeamercolor*{title}{fg=white}
+\setbeamercolor*{frametitle}{fg=white}
+\setbeamercolor*{itemize item}{fg=purple}
+\setbeamercolor*{normal text}{fg=lavender}
+\setbeamerfont{title}{size=\huge}
+\setbeamerfont{subtitle}{size=\large}
+\setbeamerfont{frametitle}{size=\normalsize}
+\setbeamerfont{framesubtitle}{size=\tiny}
+\setbeamertemplate{navigation symbols}{}
+\setbeamertemplate{itemize item}[circle]

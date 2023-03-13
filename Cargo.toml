@@ -1,0 +1,22 @@
+[package]
+name = "scenic"
+version = "0.1.0"
+homepage = ""
+categories = ["command-line-utilities", "text-processing"]
+exclude = ["dst/*"]
+edition = "2021"
+
+[[bin]]
+name = "scenic"
+doc = false
+path = "src/main.rs"
+
+[[test]]
+name = "integration"
+path = "test/cmd.rs"
+
+[dependencies]
+tectonic = "*"
+
+[dev-dependencies]
+assert_cmd = "2"

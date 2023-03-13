@@ -1,0 +1,29 @@
+{% page 0
+  \setbeamercolor{background canvas}{bg=black}
+  \title{Sample Title}
+  \author{Yasuhiro Яша Asaka <yasuhiro.asaka@grauwoelfchen.net>}
+  \date{13 March 2023}
+  \frame{\titlepage}
+}
+{% page 1
+  \setbeamercolor{background canvas}{bg=black}
+  \frame{
+    \frametitle{A sample frame title}
+    \framesubtitle{Hello, world!}
+    This is a sample.
+  }
+}
+{% page 2
+  \setbeamercolor{background canvas}{bg=black}
+  \frame{
+    \frametitle{A sample frame title}
+    \framesubtitle{Hello, world!}
+    \begin{itemize}
+      \item \textsf{Car}
+      \item \texttt{Cdr}
+      \item \textsf{Cadr}
+      \item \texttt{Cdar}
+      \item \textsf{Cddr}
+    \end{itemize}
+  }
+}
