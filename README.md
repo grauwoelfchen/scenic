@@ -7,6 +7,11 @@
 % cargo run -- example/slide.latex > dst/result.pdf
 ```
 
+```zsh
+# e.g. zathura
+% zathura --mode=presentation dst/result.pdf
+```
+
 ## Build
 
 ```zsh
