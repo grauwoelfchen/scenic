@@ -6,6 +6,8 @@ https://crates.io/crates/scenic)
 
 Presentation tool that utilizes LaTex Beamer package.
 
+![Screenshot](img/screenshot.png?raw=true "Screenshot")
+
 
 ## Install
 

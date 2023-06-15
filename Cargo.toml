@@ -15,6 +15,7 @@ license = "GPL-3.0-or-later"
 exclude = [
   "dst/*",
   "example/*",
+  "img/*",
   ".cargo-husky",
   "Makefile",
   "rust-toolchain.toml",
