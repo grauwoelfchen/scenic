@@ -18,14 +18,34 @@ Presentation tool that utilizes LaTex Beamer package.
 
 ## Usage
 
+Prepare input file like so:
+
+```latex
+% Sample page
+{% page 2
+  \setbeamercolor{background canvas}{bg=black}
+  \frame{
+    \frametitle{A sample frame title}
+    \framesubtitle{Hello, world!}
+    \begin{itemize}
+      \item \textsf{Car} % Sans-Serif
+      \item \texttt{Cdr} % Typewriter (Teletype)
+      \item \textrm{Cadr} % Roman (Serif)
+      \item \textit{Cdar}% Italic
+      \item \textbf{Cddr} % Bold
+    \end{itemize}
+  }
+}
+```
+
 ```zsh
 # write stdout into a file for now :)
-% scenic example/slide.latex > dst/result.pdf
+% scenic input.latex > /path/to/output.pdf
 ```
 
 ```zsh
 # eg. zathura
-% zathura --mode=presentation dst/result.pdf
+% zathura --mode=presentation /path/to/output.pdf
 ```
 
 
