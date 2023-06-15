@@ -1,16 +1,31 @@
 # Scenic
 
+[![crate::scenic](
+https://img.shields.io/crates/v/scenic?label=crates&style=flat)](
+https://crates.io/crates/scenic)
+
+Presentation tool that utilizes LaTex Beamer package.
+
+
+## Install
+
+```zsh
+% cargo install scenic
+```
+
+
 ## Usage
 
 ```zsh
-# for now
-% cargo run -- example/slide.latex > dst/result.pdf
+# write stdout into a file for now :)
+% scenic example/slide.latex > dst/result.pdf
 ```
 
 ```zsh
-# e.g. zathura
+# eg. zathura
 % zathura --mode=presentation dst/result.pdf
 ```
+
 
 ## Build
 
@@ -18,11 +33,13 @@
 % make build
 ```
 
+
 ## Test
 
 ```zsh
 % make test
 ```
+
 
 ## Requirements
 
@@ -30,6 +47,7 @@
 * [DejaVu](https://dejavu-fonts.github.io)
 * [TeX Gyre Pagella](
 https://www.gust.org.pl/projecets/e-foundry/tex-gyre/pagella)
+
 
 ## License
 
