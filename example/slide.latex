@@ -19,11 +19,11 @@
     \frametitle{A sample frame title}
     \framesubtitle{Hello, world!}
     \begin{itemize}
-      \item \textsf{Car}
-      \item \texttt{Cdr}
-      \item \textsf{Cadr}
-      \item \texttt{Cdar}
-      \item \textsf{Cddr}
+      \item \textsf{Car} % Sans-Serif
+      \item \texttt{Cdr} % Typewriter (Teletype)
+      \item \textrm{Cadr} % Roman (Serif)
+      \item \textit{Cdar}% Italic
+      \item \textbf{Cddr} % Bold
     \end{itemize}
   }
 }

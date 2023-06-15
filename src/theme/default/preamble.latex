@@ -1,5 +1,6 @@
 \documentclass{beamer}
 \usepackage{fontspec}
+\usepackage{lmodern}
 \defaultfontfeatures{
   Extension=.ttf, Ligatures=TeX, UprightFont=*, ItalicFont=*-Oblique,
   BoldFont=*-Bold, BoldItalicFont=*-BoldOblique,
