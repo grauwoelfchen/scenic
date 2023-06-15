@@ -1,10 +1,29 @@
 [package]
 name = "scenic"
+description = """\
+Presentation tool that utilizes LaTex Beamer package.\
+"""
 version = "0.1.0"
-homepage = ""
-categories = ["command-line-utilities", "text-processing"]
-exclude = ["dst/*"]
+authors = ["Yasuhiro Яша Asaka <yasuhiro.asaka@grauwoelfchen.net>"]
 edition = "2021"
+homepage = "https://gitlab.com/grauwoelfchen/scenic"
+readme = "README.md"
+keywords = ["latex", "pdf", "slide"]
+categories = ["command-line-utilities", "text-processing"]
+repository = "https://gitlab.com/grauwoelfchen/scenic"
+license = "GPL-3.0-or-later"
+exclude = [
+  "dst/*",
+  "example/*",
+  ".cargo-husky",
+  "Makefile",
+  "rust-toolchain.toml",
+  ".gitignore",
+  ".rustfmt.toml",
+]
+
+[badges]
+gitlab = { repository = "grauwoelfchen/scenic", branch = "trunk" }
 
 [[bin]]
 name = "scenic"
