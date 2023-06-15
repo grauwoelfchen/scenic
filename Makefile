@@ -7,6 +7,12 @@ fmt:
 lint:
 	@cargo clippy --all-targets
 
+.PHONY: check fmt lint
+
+vet: check fmt lint
+
+.PHONY: vet
+
 test:
 	@cargo test --tests -- --nocapture
 
@@ -17,4 +23,4 @@ clean:
 build:
 	cargo build
 
-.PHONY: build clean check fmt lint test
+.PHONY: build clean test
