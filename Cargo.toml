@@ -35,7 +35,7 @@ name = "integration"
 path = "test/cmd.rs"
 
 [dependencies]
-tectonic = "*"
+tectonic = "^0.14"
 
 [dev-dependencies]
 assert_cmd = "2"
