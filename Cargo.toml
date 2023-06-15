@@ -3,7 +3,7 @@ name = "scenic"
 description = """\
 Presentation tool that utilizes LaTex Beamer package.\
 """
-version = "0.1.0"
+version = "0.1.1"
 authors = ["Yasuhiro Яша Asaka <yasuhiro.asaka@grauwoelfchen.net>"]
 edition = "2021"
 homepage = "https://gitlab.com/grauwoelfchen/scenic"
